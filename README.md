@@ -1,16 +1,13 @@
-# flutter_application_3
+# Miss Data App
 
-A new Flutter project.
+A Data Preprocessing App.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+The Miss Data App is a simple utility designed to help users preprocess their datasets by replacing empty spaces with "NaN" values. This is particularly useful for handling missing data in various machine learning and data analysis workflows.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Input File Processing: Upload a file containing your dataset, and the app will scan for empty spaces.
+- Automatic Replacement: All detected empty spaces are automatically replaced with "NaN" values.
+- Output File Generation: The app generates a new file with the replaced values, ready for further analysis.
